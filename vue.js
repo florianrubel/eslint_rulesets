@@ -27,4 +27,5 @@ export default {
     "vue/no-multiple-template-root": "off", // This works fine in vue3 so why not use it if necessary.
     "vue/require-explicit-emits": "error", // Require events to be declared.
     "vue/no-setup-props-destructure": "error", // Disallow destructuring props in the setup function for reactivity.
+    "vue/multi-word-component-names": "off", // Allow single word components
 }
