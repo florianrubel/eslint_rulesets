@@ -25,6 +25,7 @@ export default {
     "dot-notation": ["error", { "allowKeywords": true }], // Enforce property access via dot notation unless invalid (object['default'] ❌).
     "eol-last": ["error", "always"], // Ensure a newline at the end of files.
     "func-names": ["warn", "always"], // Require named functions for easier debugging.
+    "no-fallthrough": "error", // Throws an error if the break statement is forgotton in a switch case.
     'import/no-unresolved': 'error', // Disallow unresolved imports.
     'import/prefer-default-export': ['error', { target: 'single' }], // Enforce default exports over named exports if there is only one exported member.
     "import/order": ["error", { "groups": ["builtin", "external", "internal"] }], // Enforce a consistent order for imports.
